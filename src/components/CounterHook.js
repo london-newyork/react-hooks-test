@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 
 function CounterHook() {
-    const [count, setCount] = useState(0)
+    const [ count, setCount ] = useState(0)
 
     const incrementCount = () => {
         setCount( prevCount => prevCount + 1)
